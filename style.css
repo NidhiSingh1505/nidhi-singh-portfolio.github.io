@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+.container{
+    background-color: white;
+    width: auto;
+    height: 735px;
+}
+.infoContainer{
+    /* background-color: green; */
+    height: 65vh;
+    width: 80vw;
+    margin: 150px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.hello{
+    font-size: 2.5em;
+
+}
+.name{
+    font-size: 2.5em;
+    font-family: "Fira Sans", sans-serif;
+}
+.about{
+    font-size: 2em;
+}
+.moreabout{
+    font-size: 1.2em;
+    font-family: "Fira Sans", sans-serif;
+    margin-top: 23px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    margin:0 3px;
+    cursor: pointer;
+    padding: 9px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.btn button:hover{
+    background-color: white;
+    color: blue;
+}
+
+.devInfo{
+    display: flex;
+    font-size: 16px;
+    font-family: "Source Code Pro", monospace;
+    justify-content: center;
+    flex-direction: column;
+}
+.devPic img{
+    height: 65vh;
+    /* position: absolute; */
+    /* width: 30vw; */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: grey;
+    transition: transform 0.3s ease-in;
+    font-weight: bold;
+    position: absolute;
+    font-family: "Fira Sans", sans-serif;
+    height:100vh;
+}
+.sidebar nav{
+    padding :45px;
+}
+.sidebar nav li{
+    list-style:none;
+    font-style:35px;
+
+    padding:33px 0;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+/* contact.html */
+.contactForm{    
+    padding: 0 34px;
+    /* padding-top: 144px; */
+    font-family: "Fira sans", sans-serif;  
+    margin: 0 180px; 
+}
+.contactForm h1{
+    font-family: "Source Code Pro", monospace;   
+    text-align: left;    
+    /* padding: 12px; */
+    /* margin-right: 90px; */
+}
+.contactForm div{
+    padding: 10px 0 ;
+}
+#emailHelp{
+    font-size: 10px;
+    color:rgb(155, 8, 181);
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+.contactForm form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactForm form div input{
+   /* width: 26vw; */
+   border-radius: 5px;
+   margin: 6px 0 0 0;
+   padding: 3px;
+}
+.contactForm form{
+    margin: 0 50px;
+ }
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 35px;
+    margin: 3px 0;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+/* blog */
+.blogItem{
+    margin: 20px;
+    font-family: "Fira sans", sans-serif;  
+}
+.blogItem p{
+    font-family: "Source Code Pro", monospace;    
+}
+.blogContainer{
+    margin: 0 180px;
+}
+.blogContainer h1{
+    font-family: "Fira sans", sans-serif; 
+    margin: 23px;    
+}
+/* My Intro */
+.intro{
+    margin: 0 140px;
+    /* padding-top: 50px; */
+}
+.intro h1,h2,p{
+    font-family: "Fira sans", sans-serif; 
+    margin: 12px; 
+
+}
+.skillContainer{
+    padding: 12px;
+    font-family: "Source Code Pro", monospace;   
+    font-weight: 600;
+}
+.skill{
+    width:265px;
+    height:12px;
+    background-color: red;
+    border: 1px solid black;
+}
+.skillItem{
+    display: flex;
+    font-family: "Source Code Pro", monospace;    
+
+    
+}
+.hundered{
+    width: 265px;
+    background-color: rgb(241, 124, 40);
+    
+}
+
+.fifty{
+    width: 125px;
+    background-color: rgb(20, 92, 35);
+}
+.seventy{
+    width: 220px;
+    background-color: rgb(208, 16, 147);
+}
+.t5{
+    width: 160px;
+    background-color: blueviolet;
+}
+.hamBurger{
+    position: absolute;
+    /* top:10px; */
+    left:10px;
+    cursor: pointer;
+}
+.ham{
+    margin-top: 6px;
+    margin-left: 10px;
+}
+.cross{
+    margin-left: 133px;
+    margin-top: 6px;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+@media (max-width: 1600px) {   
+    *{
+        /* yo */
+    }
+    .devInfo{
+        font-size: 10px;
+     }
+    /* .devPic{
+        display: none;
+    }  */
+     .intro,.blogContainer,.contactForm{
+        margin: 50px 8px;
+     }
+     .buttons{
+        font-size: 5px;
+     }
+}
